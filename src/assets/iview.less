@@ -1,0 +1,63 @@
+@import '~iview/src/styles/index.less';
+@body-background: #f1f2f6;
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",SimSun, sans-serif;
+}
+
+#app,
+.main-row,
+body,
+html {
+  width: 100%;
+  height: 100% !important;
+}
+
+#router-view {
+  overflow: auto;
+  padding: 40px;
+  height: calc( 100% - 47px );
+  background-color: #f8f8f9;
+}
+
+.main-row > div {
+  height: 100%;
+}
+
+.ivu-col {
+  transition: width 0.2s ease-in-out;
+}
+
+.hide-text .ivu-menu-submenu-title {
+  text-align: center;
+}
+
+.hide-text .ivu-menu-vertical .ivu-menu-submenu-title-icon {
+  float: none;
+  top: -4px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e9eaec;
+}
+
+.row-gutter {
+  margin-bottom: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.label-left {
+  width: 6em;
+  display: inline-block;
+}
+
+.login-form .ivu-form-item-label {
+  color: #fff !important;
+}
+.ivu-tabs-bar {
+  margin-bottom: 0px;
+}
